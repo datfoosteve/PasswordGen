@@ -22,8 +22,8 @@ const generatePassword = () => {
   const passLower = confirm("Will this password contain Lowercase Letters?");
   const passSymbols = confirm("Will this password contain Symbols?");
 
-  const capitalLetters = "ABCDEF";
-  const lowerLetters = "abcdefg";
+  const capitalLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const lowerLetters = capitalLetters.toLowerCase();
   const numbers = "1234567890";
   const symbols = "!@#$%^&*";
 
