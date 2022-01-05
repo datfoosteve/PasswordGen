@@ -30,3 +30,7 @@ If this doesnt work, please send me an email at the address below.
 
 * Stephen Puthenpurackal
 * stephenandarlie@gmail.com
+
+
+* https://datfoosteve.github.io/PasswordGen/
+* https://github.com/datfoosteve/PasswordGen
