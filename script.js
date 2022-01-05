@@ -17,10 +17,10 @@ const generatePassword = () => {
 
   const passLength = prompt("How long Do you want the password generated, to be? Greater then 8, less then 128 Characters");
 
-  const passCapital = confirm("Will this password contain capital letters?");
-  const passNumbers = confirm("Will this password contain Numbers?");
-  const passLower = confirm("Will this password contain Lowercase Letters?");
-  const passSymbols = confirm("Will this password contain Symbols?");
+  const passCapital = confirm("Click okay if you want Capital Letters");
+  const passNumbers = confirm("Click okay if you want Numbers?");
+  const passLower = confirm("Click okay if you want Lowercase Letters?");
+  const passSymbols = confirm("Click okay if you want Symbols?");
 
   const capitalLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const lowerLetters = capitalLetters.toLowerCase();
